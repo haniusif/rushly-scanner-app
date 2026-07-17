@@ -45,6 +45,32 @@
       'tab_1': 'History',
               'tab_0_desc': 'Camera scanner — shipments, inventory, assets',
       'tab_1_desc': 'Recent scans, tap to see the referenced record',
+              'scan': 'Scan',
+              'scanOrType': 'Scan or type AWB',
+              'notFound': 'Not found',
+              'tracking': 'Tracking',
+              'destination': 'Destination',
+              'currentHub': 'Current hub',
+              'customer': 'Customer',
+              'city': 'City',
+              'area': 'Area',
+              'merchant': 'Merchant',
+              'status': 'Status',
+              'cod': 'COD',
+              'suggestedActions': 'Suggested actions',
+              'noSuggestedActions': 'No actions suggested for this status',
+              'confirmAction': 'Apply this action?',
+              'confirm': 'Confirm',
+              'applied': 'Applied',
+              'lookupOnly': 'Lookup only',
+              'history': 'History',
+              'noHistory': 'No scans yet',
+              'clearHistory': 'Clear history',
+              'clearHistoryConfirm': 'Clear all local scan history?',
+              'clear': 'Clear',
+              'refresh': 'Refresh',
+              'flip': 'Flip camera',
+              'torch': 'Torch',
             };
 
         Map<String, String> get _ar => const {
@@ -81,6 +107,32 @@
       'tab_1': 'History',
               'tab_0_desc': 'Camera scanner — shipments, inventory, assets',
       'tab_1_desc': 'Recent scans, tap to see the referenced record',
+              'scan': 'Scan',
+              'scanOrType': 'Scan or type AWB',
+              'notFound': 'Not found',
+              'tracking': 'Tracking',
+              'destination': 'Destination',
+              'currentHub': 'Current hub',
+              'customer': 'Customer',
+              'city': 'City',
+              'area': 'Area',
+              'merchant': 'Merchant',
+              'status': 'Status',
+              'cod': 'COD',
+              'suggestedActions': 'Suggested actions',
+              'noSuggestedActions': 'No actions suggested for this status',
+              'confirmAction': 'Apply this action?',
+              'confirm': 'Confirm',
+              'applied': 'Applied',
+              'lookupOnly': 'Lookup only',
+              'history': 'History',
+              'noHistory': 'No scans yet',
+              'clearHistory': 'Clear history',
+              'clearHistoryConfirm': 'Clear all local scan history?',
+              'clear': 'Clear',
+              'refresh': 'Refresh',
+              'flip': 'Flip camera',
+              'torch': 'Torch',
             };
 
         String _t(String k) {
@@ -117,6 +169,32 @@
 String get tab0Desc => _t('tab_0_desc');
 String get tab1Label => _t('tab_1');
 String get tab1Desc => _t('tab_1_desc');
+        String get scan => _t('scan');
+        String get scanOrType => _t('scanOrType');
+        String get notFound => _t('notFound');
+        String get tracking => _t('tracking');
+        String get destination => _t('destination');
+        String get currentHub => _t('currentHub');
+        String get customer => _t('customer');
+        String get city => _t('city');
+        String get area => _t('area');
+        String get merchant => _t('merchant');
+        String get status => _t('status');
+        String get cod => _t('cod');
+        String get suggestedActions => _t('suggestedActions');
+        String get noSuggestedActions => _t('noSuggestedActions');
+        String get confirmAction => _t('confirmAction');
+        String get confirm => _t('confirm');
+        String get applied => _t('applied');
+        String get lookupOnly => _t('lookupOnly');
+        String get history => _t('history');
+        String get noHistory => _t('noHistory');
+        String get clearHistory => _t('clearHistory');
+        String get clearHistoryConfirm => _t('clearHistoryConfirm');
+        String get clear => _t('clear');
+        String get refresh => _t('refresh');
+        String get flip => _t('flip');
+        String get torch => _t('torch');
       }
 
       class _Delegate extends LocalizationsDelegate<AppLocalizations> {

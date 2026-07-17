@@ -5,7 +5,8 @@
   import '../../../core/api/providers.dart';
   import '../../../shared/l10n/app_localizations.dart';
   import '../../auth/presentation/auth_controller.dart';
-  import 'placeholder_screen.dart';
+  import '../../scanner/presentation/history_tab.dart';
+  import '../../scanner/presentation/scan_tab.dart';
 
   class HomeShell extends ConsumerStatefulWidget {
     const HomeShell({super.key});
@@ -20,8 +21,8 @@
     Widget build(BuildContext context) {
       final s = AppLocalizations.of(context);
       final pages = [
-PlaceholderScreen(icon: Icons.qr_code_scanner, label: s.tab0Label, description: s.tab0Desc),
-PlaceholderScreen(icon: Icons.history, label: s.tab1Label, description: s.tab1Desc)
+const ScanTab(),
+const HistoryTab()
       ];
       final destinations = [
     NavigationDestination(icon: const Icon(Icons.qr_code_scanner), label: s.tab0Label),
